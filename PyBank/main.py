@@ -45,7 +45,7 @@ import os
 import csv
 from money.money import Money                                    # Use py_money from pypi
 from money.currency import Currency
-budget_data = os.path.join("resources", "budget_data.csv")       # Keep data in a local subdirectory
+budget_data = os.path.join("..","..","python_challenge_inputfiles", "budget_data.csv")       # Keep data in a remote folder
 output_data = os.path.join("resources", "budget_summary.txt")
 
 DATE_COL = 0                                                     # No real constants native to Python (crazy!) and

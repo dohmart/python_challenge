@@ -42,7 +42,7 @@ def GetTotal(results_dict):
 import os
 import csv
 
-election_data = os.path.join("resources", "election_data.csv")       # Keep data in a local subdirectory
+election_data = os.path.join("..","..","python_challenge_inputfiles", "election_data.csv")       # Keep data in a remote folder
 election_results = os.path.join("resources", "election_results.txt")
 CAND_COL = 2
 
